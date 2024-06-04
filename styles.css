@@ -16,6 +16,7 @@ body {
 
 body {
     height: 3000px;
+    font-size: 20px;
 }
 
 h1 {
@@ -30,9 +31,7 @@ h1 {
 }
 
 
-
-
-.nav-link{
+.nav-link {
     text-decoration: none;
 
 }
@@ -45,6 +44,11 @@ h1 {
     border-radius: 50%;
     width: 90px;
     height: 70px;
+}
+
+
+#about {
+    background-color: lightgray;
 }
 
 #about-scroll {
@@ -78,6 +82,9 @@ h1 {
     color: #1A1A7E
 }
 
+#project {
+    background-color: lightblue;
+}
 
 #project-scroll {
     position: relative;
@@ -92,14 +99,49 @@ h1 {
     text-decoration: none;
 }
 
+.project-list {
+    display: flex;
+    justify-content: space-around;
+
+}
+
 #skill-scroll {
     position: relative;
     top: -80px;
 }
 
-.skill-list{
- font-size: 16px;
+#skill {
+    background-color: lightgray;
+}
+
+.skill-list {
+    font-size: 16px;
     color: #000080;
+    display: flex;
+    justify-content: space-around;
+}
+
+#welcome {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact-scroll {
+    position: relative;
+    top: -83px;
+}
+
+.contact img {
+    width: 50px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 
