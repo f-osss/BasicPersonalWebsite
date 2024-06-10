@@ -6,14 +6,12 @@ function hovering() {
     h.textContent = 'Stop hovering over me'
 }
 
-heading.addEventListener('mouseover', hovering)
-
-
 function doneHovering() {
     let h = document.querySelector('h1')
     h.textContent = "HI! I'm Faiza Salami"
 }
 
+heading.addEventListener('mouseover', hovering)
 heading.addEventListener('mouseleave', doneHovering)
 
 //IMAGES
@@ -35,4 +33,6 @@ for (let i = 0; i < images.length; i++) {
     images[i].addEventListener('mouseover', enlargeImage)
     images[i].addEventListener('mouseleave', backToNormal)
 }
+
+
 

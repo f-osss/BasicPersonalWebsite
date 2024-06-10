@@ -17,6 +17,7 @@ body {
 body {
     height: 3000px;
     font-size: 20px;
+
 }
 
 h1 {
@@ -143,5 +144,16 @@ h1 {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.hover {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#hover-p {
+    color: red;
+    font-weight: bold;
+}
+
 
 
